@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: monospace;
+  max-width: 90vw;
+  display: flex;
+  justify-content: center;
+  margin: 60px auto;
+  background: #0e0e0e;
+  color: #4d4d4d;
+}
+
+::selection {
+  background: #7019da;
+  color: #fff;
+}
